@@ -1,6 +1,6 @@
 # erasbook API com PHP e Laravel
 
-Este projeto é uma livraria virtual  desenvolvida para compra de livros
+Este projeto é uma livraria virtual  desenvolvida para compra de livros,sera proporcionado diversos livros de inumeros temas, sendo uma plataforma moderna com mais de um tipo de assinatura sem contar o modo gratis que ira proporcionar para todos um momento de lazer com seus livros favoritos, e ira poder colocar seus proprios livros fazendo com que sua carreira começe!!
 ## Requisitos
 
 Certifique-se de ter os seguintes requisitos atendidos antes de começar a trabalhar nos exercícios:
@@ -43,6 +43,13 @@ code .
 ## insomnia
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=erasbook-api&uri=https%3A%2F%2Fraw.githubusercontent.com%2FBiatozeti%2Ferasbook-api%2Fmain%2Finsomnia.json%3Ftoken%3DGHSAT0AAAAAACGBYJQKN64WLOOLMBEYWQM4ZGSEWAQ)
 
+## funcionalidades
+
+* Cadastro de [usuario](readme-usuario.md)
+* cadastro de [autor](readme-autor.md)
+* cadastro de [livros](readme-livro.md)
+* cadastro de [administrador](readme-administrador.md)
+* cadastro de [fornecedor](readme-fornecedor.md)
 
 ## Licença
 
