@@ -1,3 +1,5 @@
+![Logo do ERAS book](erasbook.png)
+
 # erasbook API com PHP e Laravel
 
 Este projeto é uma livraria virtual  desenvolvida para compra de livros,sera proporcionado diversos livros de inumeros temas, sendo uma plataforma moderna com mais de um tipo de assinatura sem contar o modo gratis que ira proporcionar para todos um momento de lazer com seus livros favoritos, e ira poder colocar seus proprios livros fazendo com que sua carreira começe!!
