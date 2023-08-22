@@ -18,30 +18,24 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 
 1. Clone este repositório para o seu ambiente de desenvolvimento local utilizando o comando:
 ```
- git clone https://github.com/Biatozeti/erasbook-api..git
+ git clone https://github.com/Biatozeti/erasbook-api.git
 ```
 2. Acesse o diretório do projeto:
 ```
 cd erasbook-api
 ```
 3. inicializando o repositorio
-...
-
+```
 composer update
-...
-
+```
 4. copiando o env. do exemplo
-...
-
+```
 copy .env.example .env
-...
-
+```
 5. Acessar o Visual Studio Code
-...
-
+```
 code .
-
-...
+```
 
 ## insomnia
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=erasbook-api&uri=https%3A%2F%2Fraw.githubusercontent.com%2FBiatozeti%2Ferasbook-api%2Fmain%2Finsomnia.json%3Ftoken%3DGHSAT0AAAAAACGBYJQKN64WLOOLMBEYWQM4ZGSEWAQ)
