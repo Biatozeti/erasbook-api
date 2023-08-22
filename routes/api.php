@@ -4,5 +4,6 @@ use App\Http\Controllers\cadastrolivroController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-route::post('livros',
-[cadastrolivroController::class, 'livros']);
+Route::post('create',[cadastrolivroController::class,'create']);
+Route::get('/find/{id}',
+    [UsuarioController::class, 'pesquisarPorId']);

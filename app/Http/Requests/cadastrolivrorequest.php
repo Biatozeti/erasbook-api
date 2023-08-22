@@ -23,41 +23,36 @@ class cadastrolivrorequest extends FormRequest
      */
     public function rules(): array
     {
-    return [
-    'nome do livro' => 'required',
-    'resumo' => 'required',
-    'código do livro' => 'required|unique',
-    'imagens' => 'required',
-    
-    ];
-}
+        return [
+            'nomeDoLivro' => 'required',
+            'resumo' => 'required',
+            'codigoDoLivro' => 'required|unique:livros,codigoDoLivro',
 
-public function failedvalidation(Validator $validator){
-    throw new HttpResponseException(response()->json([
-        'success' => false,
-        'error' => $validator->errors()
-    ]));
-}
-
-
-    
-     
-            public function messages()
-            {
-                return[
-                    'nome do livro.required' =>'o campo nome é obrigatorio',
-                    
-                    'resumo.required' => 'o campo é obrigatório',
-                    
-                    'autor.required' => 'o campo é obrigatório',
-                    
-                    'codigo do livro.required' => 'o campo é obrigatório',
-                   
-                    'imagens.required' => 'o campo é obrigatório',
-    
-                
-                ];
-            }
-    
+        ];
     }
 
+    public function failedvalidation(Validator $validator)
+    {
+        throw new HttpResponseException(response()->json([
+            'success' => false,
+            'error' => $validator->errors()
+        ]));
+    }
+
+    public function messages()
+    {
+        return [
+            'nomeDoLivro.required' => 'o campo nome é obrigatorio',
+
+            'resumo.required' => 'o campo é obrigatório',
+
+            'autor.required' => 'o campo é obrigatório',
+
+            'codigoDoLivro.required' => 'o campo é obrigatório',
+
+
+
+
+        ];
+    }
+}
